@@ -2,8 +2,8 @@ import cv2
 import mediapipe as mp
 import time
 
-cap = cv2.VideoCapture(0)# For the laptop webcam
-#cap = cv2.VideoCapture(1) # For an alternative webcam
+#cap = cv2.VideoCapture(0)# For the laptop webcam
+cap = cv2.VideoCapture(1) # For an alternative webcam
 #cap = cv2.VideoCapture("vide/path") # For a video
 pTime = 0
 
